@@ -4,8 +4,8 @@ int main(){
   
   unsigned int primo;
   
-  printf("Find primo > ");
-  scanf("%d", &primo);
+  std::cout << "find primo: ";
+  std::cin >> primo;
   
   auto isPrime = [primo]()->std::string{
     bool check = (
